@@ -15,3 +15,7 @@ const length = 40;
 for (let i = 0; i <= length; i++) {
     console.log(trib(i));
 }
+
+// Node.js に組み込まれたプロファイルツールの利用
+// - node --prof app.js でログファイルが出力される
+// - node --prof-process ログファイル で分かりやすく表示可能
