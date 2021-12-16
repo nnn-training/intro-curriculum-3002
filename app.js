@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 const memo = new Map();
 memo.set(0, 0);
 memo.set(1, 0);
@@ -11,7 +11,7 @@ function trib(n) {
     memo.set(n, value);
     return value;
 }
-const length = 40;
+const length = 89;
 for (let i = 0; i <= length; i++) {
     console.log(trib(i));
 }
